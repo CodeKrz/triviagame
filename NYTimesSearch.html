@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">    
+    <title>NYT Article Search</title>
+</head>
+<body background="assets/images/jail.png">
+    <div class="nav bg-dark text-light">
+        <div class="container" style="text-align: center; height: 100px;">
+            <br>            
+            <h1>New York Times Search</h1>
+        </div>
+    </div>
+    <div class="container" style="border: 1px solid purple; margin-top: 30px;">
+        <div class="row">
+            <div class="col bg-light" style="border: 1px solid purple">
+                <strong>Search Parameters</strong>
+            </div>
+            <br>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Search Term:</p>
+                <input type="text" style="width: 100%; margin-bottom: 30px" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Number of Records to Retrieve</p>
+                <input type="text" style="width: 100%; margin-bottom: 30px;" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Start year (Optional): </p>
+                <input type="text" style="width: 100%; margin-bottom: 30px;" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="margin-bottom: 10px; margin-bottom: 30px;">
+                <p>End Year (Optional): </p>
+                <input type="text" style="width: 100%; margin-bottom: 30px;" />
+                <br>
+                <br>
+                <button class="btn btn-primary">Search</button>
+                <button class="btn btn-primary">Clear Results</button>                
+            </div>
+        </div>
+    </div>
+    <div class="container" style="border: 1px solid yellow; margin-top: 30px;">
+        <div class="row">
+            <div class="col bg-light" style="border: 1px solid yellow">
+                <strong>Top Articles</strong>
+            </div>
+            <br>
+        </div>
+        <div class="row">
+            <div class="col">
+                <br>                           
+            </div>
+        </div>
+    </div>
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
